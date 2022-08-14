@@ -12,15 +12,12 @@ terraform {
       source  = "hashicorp/aws"
       version = "~> 4.0"
           }
-  
-  
+    
   }
 
 }
  
- provider "aws" {
-    region ="us-east-1"
- }
+ 
 
 
 resource "aws_instance" "myinst" {
